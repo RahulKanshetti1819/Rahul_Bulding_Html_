@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Image</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f0f0f0;
+            padding-top: 50px; /* Adjust to center the building vertically */
+        }
+
+        .building {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            height: 600px;
+            margin: 0 auto; /* Center the building horizontally */
+            position: relative;
+        }
+
+        .window {
+            background-color: #85d7ff; /* Light blue */
+            border: 2px solid #ffffff; /* White border */
+            border-radius: 5px;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+        }
+
+            .window:nth-child(odd) {
+                left: 40px; /* Left windows */
+            }
+
+            .window:nth-child(even) {
+                right: 40px; /* Right windows */
+            }
+
+            .window:nth-child(2),
+            .window:nth-child(5) {
+                top: 60px; /* Second and fifth row of windows */
+            }
+
+            .window:nth-child(3),
+            .window:nth-child(6) {
+                top: 150px; /* Third and sixth row of windows */
+            }
+
+            .window:nth-child(4) {
+                top: 240px; /* Fourth row of windows */
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="building">
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                    <div class="window"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
